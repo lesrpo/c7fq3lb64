@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -22,6 +22,11 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
   # bundle exec rake doc:rails generates the API under doc/api.     # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem "bootstrap-sass-rails"
+  # devise
+gem 'devise'
+
+gem 'devise-bootstrap-views'
 
 group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console       # Call 'byebug' anywhere in the code to stop execution and get a debugger console
